@@ -1,4 +1,5 @@
-let slideIndex = 1,
+window.addEventListener('DOMContentLoaded', function() {
+    let slideIndex = 1,
     slides = document.querySelectorAll('.slider-item'),
     prev = document.querySelector('.prev'),
     next = document.querySelector('.next'),
@@ -47,3 +48,4 @@ let slideIndex = 1,
             }
         }
     });
+});
